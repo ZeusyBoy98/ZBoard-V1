@@ -1,0 +1,8656 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7457c917-efaa-4a91-a56f-cb64acad28d0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Seeed_Studio_XIAO_Series:XIAO-nRF52840-SMD"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -18.542 23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XIAO-nRF52840-SMD"
+				(at -8.636 21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -8.89 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -8.89 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XIAO-nRF52840-SMD_0_1"
+				(rectangle
+					(start -19.05 20.32)
+					(end 17.78 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XIAO-nRF52840-SMD_1_1"
+				(pin passive line
+					(at -21.59 11.43 0)
+					(length 2.54)
+					(name "P0.02_A0_D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 7.62 0)
+					(length 2.54)
+					(name "P0.03_A1_D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 3.81 0)
+					(length 2.54)
+					(name "P0.28_A2_D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 0 0)
+					(length 2.54)
+					(name "P0.29_A3_D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -3.81 0)
+					(length 2.54)
+					(name "P0.04_A4_D4_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -7.62 0)
+					(length 2.54)
+					(name "P0.05_A5_D5_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -21.59 -11.43 0)
+					(length 2.54)
+					(name "P1.11_D6_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -21.59 90)
+					(length 2.54)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 22.86 270)
+					(length 2.54)
+					(name "PA31_SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -21.59 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 22.86 270)
+					(length 2.54)
+					(name "PA30_SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 22.86 270)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -21.59 90)
+					(length 2.54)
+					(name "NFC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 22.86 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -21.59 90)
+					(length 2.54)
+					(name "NFC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 11.43 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 3.81 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "P1.15_D10_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -3.81 180)
+					(length 2.54)
+					(name "P1.14_D9_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "P1.13_D8_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -11.43 180)
+					(length 2.54)
+					(name "P1.12_D7_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 156.21 53.34)
+		(end 269.24 153.67)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1ce66480-39dc-4066-a27e-72fe04e23404)
+	)
+	(rectangle
+		(start 69.85 49.53)
+		(end 105.41 68.58)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 43196618-5975-4b36-a141-00846602516c)
+	)
+	(rectangle
+		(start 69.85 69.85)
+		(end 109.22 80.01)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4a1504f7-f787-4964-8680-70f5f9cae200)
+	)
+	(rectangle
+		(start 45.72 83.82)
+		(end 119.38 153.67)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aa467527-df84-4682-8a2d-dd21111262ea)
+	)
+	(rectangle
+		(start 45.72 49.53)
+		(end 66.04 80.01)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d9908acc-d3dc-46ed-9bda-513ce8d32c12)
+	)
+	(text "Matrix"
+		(exclude_from_sim no)
+		(at 160.528 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20381f5c-8a6c-4846-ba0b-7057c02b92bc")
+	)
+	(text "Mounting Holes\n"
+		(exclude_from_sim no)
+		(at 77.978 72.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ad171dc-3c73-4f58-a02f-b3332f713114")
+	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 52.324 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a116923-75a6-4f55-b9d3-49054f903dda")
+	)
+	(text "xiao"
+		(exclude_from_sim no)
+		(at 50.292 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6934b7ef-476a-43e5-8f0b-8000f13da19d")
+	)
+	(text "Battery Sense"
+		(exclude_from_sim no)
+		(at 76.962 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f285992c-5d74-479c-804b-aae803eae1f2")
+	)
+	(junction
+		(at 201.93 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0552e074-3866-469f-b58c-85381c186aa2")
+	)
+	(junction
+		(at 228.6 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0af182d0-00ce-4231-8ee9-add5dba63530")
+	)
+	(junction
+		(at 251.46 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1658d4ec-d410-41d3-ab9e-873c79cbe04c")
+	)
+	(junction
+		(at 201.93 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "172cef07-ccf4-4e9a-b078-1e55b5221cef")
+	)
+	(junction
+		(at 179.07 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b3a93a3-cb45-4be7-84b0-12ad5e532248")
+	)
+	(junction
+		(at 179.07 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "294b7070-5b18-4ed8-ab96-4e541c7c9e7d")
+	)
+	(junction
+		(at 234.95 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ab9b343-6432-4550-bb11-f0df3d3e4b53")
+	)
+	(junction
+		(at 195.58 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "362258e0-459a-466d-92d1-0cdb9e2ab06a")
+	)
+	(junction
+		(at 185.42 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39858a35-1259-4f2c-881d-25810c506c42")
+	)
+	(junction
+		(at 251.46 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b7233d5-78c6-48a1-99ae-b5058364d6e4")
+	)
+	(junction
+		(at 251.46 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d8c55b4-6b06-4880-ad5a-f438ce979693")
+	)
+	(junction
+		(at 234.95 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ee92d2b-8279-4129-a53c-62a5e7bbbff0")
+	)
+	(junction
+		(at 201.93 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f18c5db-19f9-4dca-bb1d-bbbd1eb3123a")
+	)
+	(junction
+		(at 212.09 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48c1c842-5616-47c0-9244-e91d61e3b067")
+	)
+	(junction
+		(at 245.11 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bf72fa4-502e-4431-b191-40f8217cd2e6")
+	)
+	(junction
+		(at 179.07 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "525591e4-8791-4866-8da4-5c3bce0b2d95")
+	)
+	(junction
+		(at 212.09 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c4c221a-5f7d-43a7-9015-69910d0797c3")
+	)
+	(junction
+		(at 168.91 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ea7baef-bb80-4679-9cbf-42e06b7d5c78")
+	)
+	(junction
+		(at 234.95 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "621abf02-d220-4d1a-8bb1-ce45ad2cc9c9")
+	)
+	(junction
+		(at 168.91 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "658c9766-a174-4732-9987-e032adc50269")
+	)
+	(junction
+		(at 245.11 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a76e351-6a92-48c6-8c78-b2759c0e3f3f")
+	)
+	(junction
+		(at 212.09 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aa895da-40e6-44d6-a2e6-f8947914f248")
+	)
+	(junction
+		(at 228.6 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "754f6a4e-5aef-4486-a915-7577042c3350")
+	)
+	(junction
+		(at 195.58 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77eb7ed5-afc9-47aa-a0e3-8e124a4f6843")
+	)
+	(junction
+		(at 185.42 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c878a96-dae3-46f9-8f08-f164cbdd0a3a")
+	)
+	(junction
+		(at 228.6 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e997f3e-1135-483c-b549-4fa3a88e94cf")
+	)
+	(junction
+		(at 218.44 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f0228ec-3077-4563-a424-af624af84df9")
+	)
+	(junction
+		(at 179.07 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82cc894c-8cdf-4574-b853-05efd55afc87")
+	)
+	(junction
+		(at 168.91 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87023555-d32f-4584-82f2-9a538f907088")
+	)
+	(junction
+		(at 201.93 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88e8b863-d826-4c22-b8c3-28553434ad03")
+	)
+	(junction
+		(at 218.44 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "895ceb82-b08d-4a98-9c2c-916a49bc1d02")
+	)
+	(junction
+		(at 179.07 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90edd319-8ed8-4416-8c2e-4c2ac158d342")
+	)
+	(junction
+		(at 245.11 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "956a497a-6fed-4f73-b561-71feedb448f0")
+	)
+	(junction
+		(at 195.58 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95bef9c9-3d97-4bb5-b05e-53e3e3ef09d4")
+	)
+	(junction
+		(at 251.46 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99995656-ec19-47c5-914f-5087c30ef874")
+	)
+	(junction
+		(at 195.58 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "999b0f30-dd27-495c-9359-4754ab367d13")
+	)
+	(junction
+		(at 86.36 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a3b0bdc-e4c3-41ea-9b94-303e7a300f58")
+	)
+	(junction
+		(at 195.58 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1b003ae-9a0d-4a77-913c-1cbc9358b328")
+	)
+	(junction
+		(at 228.6 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3679c37-7039-43ef-b5ca-281249bff2b6")
+	)
+	(junction
+		(at 245.11 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbaf204c-0de9-44cd-bde2-994fb4bee6e5")
+	)
+	(junction
+		(at 212.09 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbbd4380-09d9-4c7c-8910-2a2a9e573e0a")
+	)
+	(junction
+		(at 218.44 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1210cd6-4f4e-421f-8778-ad412e3ffdc5")
+	)
+	(junction
+		(at 185.42 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c59479ec-e7ba-4e7a-a2d4-74b2ea14e7c7")
+	)
+	(junction
+		(at 218.44 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5b2eb32-bdb8-401a-a629-bd91132db659")
+	)
+	(junction
+		(at 212.09 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd93795f-2202-48f1-bb08-8c9779981f6b")
+	)
+	(junction
+		(at 234.95 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfe49e78-784d-48aa-a915-8927eedce4a0")
+	)
+	(junction
+		(at 185.42 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e33e50ab-1680-4831-a378-f71ac9b02550")
+	)
+	(junction
+		(at 245.11 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e72b64f7-fe1e-4088-9e80-b63e477f80f9")
+	)
+	(junction
+		(at 228.6 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f25c88ed-768c-4800-9b49-753220e1cb3d")
+	)
+	(junction
+		(at 168.91 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f91937f8-0198-4e9d-ba54-d5e14dd9c61c")
+	)
+	(no_connect
+		(at 102.87 115.57)
+		(uuid "3af01844-a40a-4efa-8d18-0c0a12e4684a")
+	)
+	(no_connect
+		(at 102.87 107.95)
+		(uuid "5dea4861-cd3d-49eb-993d-536bb48652f4")
+	)
+	(no_connect
+		(at 77.47 96.52)
+		(uuid "a1be3262-88a9-411b-95ad-7330f0fe2c18")
+	)
+	(no_connect
+		(at 85.09 140.97)
+		(uuid "b9ad1631-9bee-4553-b6bb-c19d24bd5b29")
+	)
+	(no_connect
+		(at 85.09 96.52)
+		(uuid "d82bfdbb-7d4b-4312-842d-28a37d6b249c")
+	)
+	(no_connect
+		(at 88.9 96.52)
+		(uuid "ebcdd8f4-576c-45a5-a3af-83ff17db5cdf")
+	)
+	(no_connect
+		(at 90.17 140.97)
+		(uuid "ed3d7e8b-8748-4ad6-929e-4e9f3a234931")
+	)
+	(wire
+		(pts
+			(xy 218.44 71.12) (xy 218.44 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043a4e51-540e-47aa-8ed0-f23c7956d828")
+	)
+	(wire
+		(pts
+			(xy 218.44 106.68) (xy 218.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8bed59-f2fe-4970-9775-04098d180773")
+	)
+	(wire
+		(pts
+			(xy 160.02 114.3) (xy 179.07 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9080dc-90aa-4cf0-a074-047ea3c0e93a")
+	)
+	(wire
+		(pts
+			(xy 168.91 60.96) (xy 168.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10dd3560-2685-45a0-b038-bd8efd5a5c28")
+	)
+	(wire
+		(pts
+			(xy 185.42 124.46) (xy 185.42 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f5d0d3-06c4-429b-8168-af33a6be06c5")
+	)
+	(wire
+		(pts
+			(xy 212.09 132.08) (xy 228.6 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d92b42-4c65-476c-b5e0-a0bcefbda8c8")
+	)
+	(wire
+		(pts
+			(xy 185.42 60.96) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d2d7e0-7fa5-478e-9d8f-2d4e076205fb")
+	)
+	(wire
+		(pts
+			(xy 83.82 59.69) (xy 86.36 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d79ef6d-e6e8-42b3-8e8b-05c6680eee5c")
+	)
+	(wire
+		(pts
+			(xy 212.09 96.52) (xy 228.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dec5284-fd2d-4049-9385-9e2dcce07c94")
+	)
+	(wire
+		(pts
+			(xy 185.42 88.9) (xy 185.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2054ddd5-6394-4f39-94ae-b4bac767664a")
+	)
+	(wire
+		(pts
+			(xy 160.02 149.86) (xy 179.07 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266002dc-f387-4c72-aecc-2f340805769a")
+	)
+	(wire
+		(pts
+			(xy 234.95 71.12) (xy 234.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b1b1da-4389-4b28-ab0e-a5b7cef62b47")
+	)
+	(wire
+		(pts
+			(xy 201.93 71.12) (xy 201.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31dd6195-4394-4b6b-904d-e7ae1e1d1b34")
+	)
+	(wire
+		(pts
+			(xy 67.31 142.24) (xy 74.93 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32063b8f-8fa1-459a-bb7b-f04c13ac267f")
+	)
+	(wire
+		(pts
+			(xy 251.46 60.96) (xy 251.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330ea4ae-ddfc-4010-8820-0b34fd1c1efa")
+	)
+	(wire
+		(pts
+			(xy 245.11 96.52) (xy 261.62 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34580b23-265d-4771-934d-c4856f08ff2d")
+	)
+	(wire
+		(pts
+			(xy 160.02 78.74) (xy 179.07 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c5d54b-dc34-4f8c-8766-e29e59c20979")
+	)
+	(wire
+		(pts
+			(xy 251.46 106.68) (xy 251.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38542d61-2ccc-4919-aad4-62d6529c80a0")
+	)
+	(wire
+		(pts
+			(xy 212.09 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390f7f86-5191-4260-a327-110d7143f079")
+	)
+	(wire
+		(pts
+			(xy 160.02 96.52) (xy 179.07 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa37d1b-11d5-4077-92f2-be99e14f3d59")
+	)
+	(wire
+		(pts
+			(xy 168.91 60.96) (xy 173.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d7ec3c-ce7d-4e2f-94ac-b825836e5d14")
+	)
+	(wire
+		(pts
+			(xy 245.11 114.3) (xy 261.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4824e7f1-e01d-4118-9ca6-f55866f2f626")
+	)
+	(wire
+		(pts
+			(xy 212.09 78.74) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491fcf78-ce59-4f4e-984c-b274876a9f3a")
+	)
+	(wire
+		(pts
+			(xy 245.11 149.86) (xy 261.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "495888ac-c8b4-4cfb-b5cc-98a075dd7ff7")
+	)
+	(wire
+		(pts
+			(xy 228.6 78.74) (xy 245.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4e92e3-86f5-4946-9b6a-499272701095")
+	)
+	(wire
+		(pts
+			(xy 168.91 71.12) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1b6b93-aeac-4842-9c28-935d1342d680")
+	)
+	(wire
+		(pts
+			(xy 218.44 124.46) (xy 218.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "505c872a-dece-4aa6-b544-6a99dac8eb24")
+	)
+	(wire
+		(pts
+			(xy 251.46 88.9) (xy 251.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c27bf78-587b-4148-b808-daf1c495fcc9")
+	)
+	(wire
+		(pts
+			(xy 179.07 132.08) (xy 195.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c96ac1c-cd8a-4dc7-9c1a-448305420444")
+	)
+	(wire
+		(pts
+			(xy 195.58 96.52) (xy 212.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fac02ca-60e5-4647-9757-058b0d821e48")
+	)
+	(wire
+		(pts
+			(xy 228.6 132.08) (xy 245.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600ebb35-8fef-4826-8645-8e516657ab64")
+	)
+	(wire
+		(pts
+			(xy 179.07 149.86) (xy 195.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c203f9d-c77b-42da-8347-b4cf2e31d103")
+	)
+	(wire
+		(pts
+			(xy 201.93 88.9) (xy 201.93 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d15e7eb-5909-4f4a-a82c-b9912d67f12c")
+	)
+	(wire
+		(pts
+			(xy 234.95 124.46) (xy 234.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6febc7f3-fb8b-4e8f-9180-fbc4de14f58a")
+	)
+	(wire
+		(pts
+			(xy 228.6 149.86) (xy 245.11 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bee3f88-a9be-4e44-a3f1-7531e929feab")
+	)
+	(wire
+		(pts
+			(xy 212.09 149.86) (xy 228.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866fe1bc-fe58-46f9-8f35-2ab0d605438b")
+	)
+	(wire
+		(pts
+			(xy 218.44 88.9) (xy 218.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87de3a9e-7d4e-46a4-acc3-94a95024c010")
+	)
+	(wire
+		(pts
+			(xy 201.93 106.68) (xy 201.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e5d401-5203-436e-9589-85cad2710f87")
+	)
+	(wire
+		(pts
+			(xy 195.58 78.74) (xy 212.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3dd6e0-4c67-4715-8dd6-346fe6ed55f7")
+	)
+	(wire
+		(pts
+			(xy 185.42 106.68) (xy 185.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9225822c-3139-4211-aac6-f37bf6fd2a06")
+	)
+	(wire
+		(pts
+			(xy 71.12 59.69) (xy 76.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97775b40-a794-44f5-9072-8309f8a4dcaa")
+	)
+	(wire
+		(pts
+			(xy 179.07 96.52) (xy 195.58 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992bcc9d-b427-48b8-9229-4c0bbc3d9465")
+	)
+	(wire
+		(pts
+			(xy 201.93 60.96) (xy 201.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9abae2b0-fd9d-4326-9123-536cbf24c66a")
+	)
+	(wire
+		(pts
+			(xy 54.61 107.95) (xy 60.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b27935e-9aeb-4252-8d6d-5db2aecd3892")
+	)
+	(wire
+		(pts
+			(xy 245.11 132.08) (xy 261.62 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f715a70-e6a6-463a-9f69-00acee10b21a")
+	)
+	(wire
+		(pts
+			(xy 52.07 59.69) (xy 58.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05fc112-fd32-4cf2-9462-71ecb9dd589d")
+	)
+	(wire
+		(pts
+			(xy 81.28 93.98) (xy 81.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40ea3cc-9122-45f7-8b69-ede5284349e8")
+	)
+	(wire
+		(pts
+			(xy 179.07 114.3) (xy 195.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a544c356-97d0-438c-8eba-06003cdb321d")
+	)
+	(wire
+		(pts
+			(xy 168.91 88.9) (xy 168.91 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58d99a3-0382-4961-aba8-04115b18e78b")
+	)
+	(wire
+		(pts
+			(xy 195.58 132.08) (xy 212.09 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59d13cb-45f8-49a2-90fb-b5ac367c42b3")
+	)
+	(wire
+		(pts
+			(xy 185.42 71.12) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76b0f6c-5e7a-4966-8252-8c871d9511ac")
+	)
+	(wire
+		(pts
+			(xy 201.93 124.46) (xy 201.93 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a877c4ec-4da5-435b-baad-2d3c305e354c")
+	)
+	(wire
+		(pts
+			(xy 195.58 114.3) (xy 212.09 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c3105d-aecf-437e-a573-dab2044ee295")
+	)
+	(wire
+		(pts
+			(xy 168.91 106.68) (xy 168.91 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbef5f9-c43e-47e3-8660-9f53b1b96e06")
+	)
+	(wire
+		(pts
+			(xy 77.47 67.31) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b386c0b1-562b-4ca8-8ba8-d7cee97ece58")
+	)
+	(wire
+		(pts
+			(xy 218.44 60.96) (xy 218.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc04d5e1-de15-4a9f-ad05-f256f542cb54")
+	)
+	(wire
+		(pts
+			(xy 195.58 149.86) (xy 212.09 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc853850-6998-4895-90d8-1a1d7d190d90")
+	)
+	(wire
+		(pts
+			(xy 179.07 78.74) (xy 195.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd286f74-ddf3-4ed6-80db-d01511d151cc")
+	)
+	(wire
+		(pts
+			(xy 228.6 114.3) (xy 245.11 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe25f9a-902a-4c7b-b699-39804238f151")
+	)
+	(wire
+		(pts
+			(xy 251.46 60.96) (xy 256.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4123c42-deb2-4a21-9049-583053a70685")
+	)
+	(wire
+		(pts
+			(xy 228.6 96.52) (xy 245.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c570b171-20f6-4c25-aad2-839115b5d7af")
+	)
+	(wire
+		(pts
+			(xy 86.36 59.69) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c80f9aa6-e207-4232-a55d-ac001d414e1a")
+	)
+	(wire
+		(pts
+			(xy 160.02 132.08) (xy 179.07 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae722af-334b-4645-bd4a-bb34dd83c7fa")
+	)
+	(wire
+		(pts
+			(xy 185.42 60.96) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccfba61a-fe8f-4c41-95a9-ad70569d2c9d")
+	)
+	(wire
+		(pts
+			(xy 52.07 71.12) (xy 55.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11abd9b-248a-4d82-b9ee-b885752afec8")
+	)
+	(wire
+		(pts
+			(xy 86.36 67.31) (xy 86.36 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c9f198-5acb-45cb-9f52-bfe2f9cab602")
+	)
+	(wire
+		(pts
+			(xy 251.46 124.46) (xy 251.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4bf013d-f09f-47f0-85a7-e4520b4ec70d")
+	)
+	(wire
+		(pts
+			(xy 81.28 93.98) (xy 86.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64a254e-0758-40c0-afc0-37a12cf75adc")
+	)
+	(wire
+		(pts
+			(xy 234.95 60.96) (xy 240.03 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7790c69-8b6b-48a1-86f9-fad74e24fa87")
+	)
+	(wire
+		(pts
+			(xy 245.11 78.74) (xy 261.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d7c6b4-80dc-45d0-822b-3eea9ef78812")
+	)
+	(wire
+		(pts
+			(xy 168.91 124.46) (xy 168.91 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee12c2c7-ab95-4bc6-92ec-4db02344b4f8")
+	)
+	(wire
+		(pts
+			(xy 234.95 88.9) (xy 234.95 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb42c61-b916-43fb-9f27-9510e4c53d60")
+	)
+	(wire
+		(pts
+			(xy 218.44 60.96) (xy 223.52 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c44c90-d134-452c-b452-c0201351ac04")
+	)
+	(wire
+		(pts
+			(xy 74.93 142.24) (xy 74.93 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13a1e46-e225-49cb-a296-a7b619c4ade3")
+	)
+	(wire
+		(pts
+			(xy 234.95 60.96) (xy 234.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc255684-e28d-41a1-8679-bbdf70a6ed80")
+	)
+	(wire
+		(pts
+			(xy 234.95 106.68) (xy 234.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb32543-03b1-47f3-acd8-87b64391f8f9")
+	)
+	(wire
+		(pts
+			(xy 201.93 60.96) (xy 207.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8514c6-e5d2-42bb-b9e4-244362eb6448")
+	)
+	(wire
+		(pts
+			(xy 251.46 71.12) (xy 251.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe69eb3b-319c-476b-8176-5d51101b1d9c")
+	)
+	(label "COL0"
+		(at 168.91 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22f0a4e4-52a7-40a5-b003-b7d6dffde87d")
+	)
+	(label "ROW3"
+		(at 165.1 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2300494b-6d98-45ff-8fcb-22d983256077")
+	)
+	(label "COL1"
+		(at 60.96 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23a4c788-a071-44e1-a785-b6bfe299ba54")
+	)
+	(label "ROW2"
+		(at 102.87 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26e7c42e-2fb3-4346-96a5-05a31b4ead48")
+	)
+	(label "COL2"
+		(at 60.96 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29561b90-ef5c-42de-bd49-90a59e1acfc7")
+	)
+	(label "ROW0"
+		(at 165.1 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31a8a032-6c0c-4e3d-a437-343d811926ea")
+	)
+	(label "VBAT"
+		(at 72.39 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "436f229a-d207-4a18-b557-9128d878dde0")
+	)
+	(label "COL1"
+		(at 185.42 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d2de88d-13d8-4f9e-84a0-04691209284e")
+	)
+	(label "COL4"
+		(at 60.96 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "63cb2725-0759-41fe-a184-346166fca437")
+	)
+	(label "ROW1"
+		(at 165.1 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "675ab9f6-7221-4b75-be27-5538fa6f34ed")
+	)
+	(label "COL2"
+		(at 201.93 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a7a245a-c43e-4baf-a409-d38fa10bef25")
+	)
+	(label "ROW4"
+		(at 165.1 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7429882a-1ce0-44ca-9de7-5631da450094")
+	)
+	(label "COL5"
+		(at 60.96 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80dbcd6c-54c9-4751-a375-aa4e627865a1")
+	)
+	(label "ROW0"
+		(at 60.96 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e72547a-1022-4197-ae3b-ec219534fe3c")
+	)
+	(label "COL4"
+		(at 234.95 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9b6498a-0f04-4926-983b-1f92d4cf7a39")
+	)
+	(label "VBAT"
+		(at 76.2 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac14d388-410c-41f7-9a87-ddd6ce99e92e")
+	)
+	(label "COL0"
+		(at 81.28 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae96d815-9288-402c-b5d6-78711509b620")
+	)
+	(label "BT_PIN"
+		(at 60.96 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af62c791-3155-4800-b399-1a32ae9b8c73")
+	)
+	(label "ROW3"
+		(at 102.87 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3a55148-767d-4eda-b197-58fe92fd3783")
+	)
+	(label "BT_PIN"
+		(at 85.09 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be7ba605-2ce9-45ec-b3a9-0bd1051f226f")
+	)
+	(label "COL5"
+		(at 251.46 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdeb101e-7c79-41df-abe4-d178ddf29e79")
+	)
+	(label "COL3"
+		(at 218.44 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d80525a8-267d-4e88-9e44-40cf658e6553")
+	)
+	(label "ROW4"
+		(at 102.87 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d95d8993-a31c-494d-bc3d-6fe3f0c87b2c")
+	)
+	(label "VBAT"
+		(at 54.61 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc3fbe13-eaff-43a8-bb82-1bad30ae0d47")
+	)
+	(label "ROW1"
+		(at 102.87 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcf7c790-1c13-444b-a60b-795511e91b57")
+	)
+	(label "ROW2"
+		(at 165.1 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de036956-d9a3-47ac-9d5e-f07de329c0cd")
+	)
+	(label "COL3"
+		(at 60.96 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef2995c0-cad9-4b09-bca0-b8bf5ecb9565")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 102.87 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cddfea7-c3a1-449f-8782-2e9761c557e4")
+		(property "Reference" "H9"
+			(at 105.41 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 105.41 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Mousebites:mouse-bite-5mm-slot"
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "H9")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 228.6 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eae7abd-9aef-4cbb-b181-48d7bf7515ad")
+		(property "Reference" "D19"
+			(at 231.14 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 231.14 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b26b00a-5754-4d40-8571-65eab8cc968c")
+		)
+		(pin "2"
+			(uuid "cc6a7221-73c3-44f5-9faa-2a0444f95220")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 256.54 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ee51959-b78a-4353-8152-5d5e758555de")
+		(property "Reference" "SW59"
+			(at 256.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 256.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 256.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "701a4220-b886-4d74-a991-1bd85a1aea93")
+		)
+		(pin "2"
+			(uuid "e612fb06-45dd-425d-8a58-89216bebccd6")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW59")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 228.6 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20b2893c-b597-4cba-bd06-3763b3b3f784")
+		(property "Reference" "D55"
+			(at 231.14 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 231.14 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 228.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 228.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 228.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 228.6 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87991166-1779-4ff7-aee1-0717e12ed083")
+		)
+		(pin "2"
+			(uuid "f523aaf0-c49a-4857-8423-502a40b2412b")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D55")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 240.03 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "210f5a8a-c7bf-4434-ba4e-050d5f892304")
+		(property "Reference" "SW9"
+			(at 240.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acf1627b-f047-4c89-ad0c-55c7f8035556")
+		)
+		(pin "2"
+			(uuid "0e409bf7-3003-41c0-b6da-921601d81fc5")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW9")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 207.01 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23e9f1ad-0cf9-46a8-bc5e-a43bd2216a48")
+		(property "Reference" "SW17"
+			(at 207.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ea14359-92da-419e-a518-9231d42326aa")
+		)
+		(pin "2"
+			(uuid "ce0f8ecc-830c-4230-8559-af2d9399ecf0")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW17")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 195.58 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27f5da81-712a-4ef7-94a5-7d982ba4f0da")
+		(property "Reference" "D51"
+			(at 198.12 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 198.12 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 195.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 195.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 195.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 195.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0470f1b5-7c18-4385-b43c-a6b3ca09633b")
+		)
+		(pin "2"
+			(uuid "2232921f-2b33-4a43-851f-e183897f6904")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D51")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 245.11 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d3d8c1c-3378-4f9f-8079-12db01f59c33")
+		(property "Reference" "D57"
+			(at 247.65 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 247.65 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 245.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 245.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 245.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "089ad022-bc23-42cb-ba4a-8f20a16e984a")
+		)
+		(pin "2"
+			(uuid "12259c21-2e5b-4cfb-8867-cca0c01e5f5d")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D57")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 195.58 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31f5a9dc-857e-4ffa-ac85-592668cf35ba")
+		(property "Reference" "D39"
+			(at 198.12 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 198.12 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "785745f6-2c10-4987-a3dd-f810839b8d7c")
+		)
+		(pin "2"
+			(uuid "2da42e2f-ada9-4525-9ae0-eedb6cb3d09d")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D39")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 207.01 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3425a748-b1bd-482d-b5e7-0afe1bfba6d8")
+		(property "Reference" "SW5"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 207.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 207.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 207.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3c8037d-d465-48bc-a40d-7656de7596d0")
+		)
+		(pin "2"
+			(uuid "fd02e145-57a8-47ac-abdd-95c30f20d98e")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW5")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 190.5 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3452aa23-de3c-4714-9d75-aae40e6c85a8")
+		(property "Reference" "SW3"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "272fab97-3fc6-46a5-acc2-56bba7c457f6")
+		)
+		(pin "2"
+			(uuid "38b4da6e-b7f3-4349-a6d2-3f89359e9644")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW3")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 173.99 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3effdf06-9b2d-49a4-b119-5af4891a3a1b")
+		(property "Reference" "SW13"
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f079429f-4237-49e5-9e95-85b313f681ca")
+		)
+		(pin "2"
+			(uuid "251d355e-9136-4882-b2bf-05821c05d7d7")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW13")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.01 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42b5c537-592b-43cc-8ba1-67129ca16e91")
+		(property "Reference" "806k1"
+			(at 80.01 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 80.01 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 80.01 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0c528f9-5dda-4ce5-9684-9b29cf7bdd5e")
+		)
+		(pin "1"
+			(uuid "bba68d68-99e3-4bf8-a7a9-111c18034895")
+		)
+		(instances
+			(project ""
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "806k1")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "806k2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 207.01 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "449b76f9-b36a-48b2-82a5-7207feb5bc89")
+		(property "Reference" "SW53"
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 207.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 207.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 207.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d65f15a-c55c-4dcf-901a-aaafcd69ff0f")
+		)
+		(pin "2"
+			(uuid "6662d291-b515-4f56-b374-54c8e73197f1")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW53")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 212.09 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5044a717-aa7d-45ee-83b2-50ba8b07be93")
+		(property "Reference" "D29"
+			(at 214.63 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 214.63 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "304d1e61-5c89-4625-9dec-24f737d03911")
+		)
+		(pin "2"
+			(uuid "dcbd376e-47a2-4784-b724-5561785f948f")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "510ffc33-f1dd-4a6b-9e2a-4b368261a40c")
+		(property "Reference" "TP1"
+			(at 48.768 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT"
+			(at 48.768 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a44f512-6e6f-4850-b85f-334fdce81ea1")
+		)
+		(instances
+			(project ""
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "TP1")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 245.11 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53512d9c-a531-4932-afdf-a474a99e3197")
+		(property "Reference" "D21"
+			(at 247.65 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 247.65 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "795dff63-e559-487a-b656-3e0ae5f4edb2")
+		)
+		(pin "2"
+			(uuid "d70c1e6b-8956-43a3-b7a1-05717bc6bd42")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 190.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53559165-5a1b-41d3-a6f8-cfdaa04e27d6")
+		(property "Reference" "SW15"
+			(at 190.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fc83f99-1781-424c-8e1f-3c504c10e277")
+		)
+		(pin "2"
+			(uuid "ea138485-5b69-4e12-b5d6-2d7c962d252b")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW15")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 256.54 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "543687b9-77d0-4ae9-8919-9a5d642b5656")
+		(property "Reference" "SW35"
+			(at 256.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 256.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 256.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 256.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f92cc9c3-fe61-433b-b661-3b5eddc9ba18")
+		)
+		(pin "2"
+			(uuid "b887102d-8f90-41a2-ad6e-67e7ac40ec2a")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW35")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 173.99 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5683e936-1962-4266-9f70-867d9f700890")
+		(property "Reference" "SW37"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 173.99 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 173.99 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ff90d57-b64e-4df6-bb66-abf4f5254bda")
+		)
+		(pin "2"
+			(uuid "17a9642a-6aa2-464e-99ab-133e457bb310")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW37")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 72.39 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bf67707-4481-41ca-8362-649cb84edde0")
+		(property "Reference" "H1"
+			(at 74.93 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 74.93 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Mousebites:mouse-bite-5mm-slot"
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "H1")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 261.62 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cde60ff-9c73-4b1e-b0af-af1ddfe8b458")
+		(property "Reference" "D23"
+			(at 264.16 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 264.16 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 261.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 261.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 261.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 261.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10b6c3fc-9f1f-4d5b-bac1-13469ad546c2")
+		)
+		(pin "2"
+			(uuid "ebb72313-fd76-4ba4-8160-fad99e9988c2")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 207.01 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e994813-47ae-4051-a301-4c20da896604")
+		(property "Reference" "SW41"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 207.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 207.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 207.01 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e12b9bcb-6630-4b14-ab3d-818bcb9cc606")
+		)
+		(pin "2"
+			(uuid "b708059f-9183-4267-b35a-8284efe5c33b")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW41")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 223.52 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "626509d0-1bc5-457d-8333-2f6363f94510")
+		(property "Reference" "SW7"
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 223.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d997ddc-bb0e-4b31-8b6d-6c203e3286b0")
+		)
+		(pin "2"
+			(uuid "cd3cec9f-fb92-4881-bd07-b545cc64d267")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW7")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 179.07 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63922cf6-8798-42a6-8289-c01c8b9c9bf0")
+		(property "Reference" "D1"
+			(at 181.61 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 181.61 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c2183cd-e173-4159-a1aa-487c8b9471a0")
+		)
+		(pin "2"
+			(uuid "f3c74952-3522-4ef6-8738-95fd74966860")
+		)
+		(instances
+			(project ""
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6949ce5a-b439-476b-9c96-d8ed82b70cad")
+		(property "Reference" "TP3"
+			(at 48.768 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.768 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f3d1890-d850-419d-b24d-051a716b0a5d")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "TP3")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 179.07 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ae30b44-f9dc-4fc5-9b78-59aa24c13e31")
+		(property "Reference" "D49"
+			(at 181.61 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 181.61 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 179.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 179.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 179.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d7ef676-5fdd-4154-a7ea-0dfbae260443")
+		)
+		(pin "2"
+			(uuid "015aa5b2-a618-41fe-b5fd-10a4d10e7dd3")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D49")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 80.01 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c5664f9-4e82-4a3a-a58d-7650f7f39da7")
+		(property "Reference" "H3"
+			(at 82.55 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 82.55 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Mousebites:mouse-bite-5mm-slot"
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "H3")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 261.62 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "706651af-10c4-45b7-a024-c976573f6a18")
+		(property "Reference" "D59"
+			(at 264.16 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 264.16 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88cb9db9-1797-4f64-8e03-e95217927c96")
+		)
+		(pin "2"
+			(uuid "fa441a58-8ec5-4169-9b56-cb61be97f5dd")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D59")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 190.5 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76cccdec-cafc-47d9-8e1e-0d432808762b")
+		(property "Reference" "SW27"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4775a816-3b05-4cf3-804b-d7d514246ca5")
+		)
+		(pin "2"
+			(uuid "ac969246-2937-40e6-8384-1ed2e02c6923")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW27")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 212.09 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a67432c-95bb-4b78-8f25-4ad41fbb5080")
+		(property "Reference" "D17"
+			(at 214.63 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 214.63 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "913177e7-ab1c-458b-873c-0c6deb3c5cf6")
+		)
+		(pin "2"
+			(uuid "2539acbd-5790-4bc5-8fbc-d96127d58aa6")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 223.52 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7baffa8c-3af8-4912-a5ab-c4872a8de005")
+		(property "Reference" "SW43"
+			(at 223.52 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 223.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e66132e-3065-4f02-9115-0304a83a1d86")
+		)
+		(pin "2"
+			(uuid "6c3d35df-8c7e-4b15-8023-71394b979bf9")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW43")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 195.58 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e999219-3405-4b18-b58f-09e9b7ad35eb")
+		(property "Reference" "D3"
+			(at 198.12 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 198.12 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 195.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 195.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 195.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 195.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccec1cf9-e5cc-4963-bf18-70e6dc091a12")
+		)
+		(pin "2"
+			(uuid "218d60ce-e0dd-410b-9299-f76a16f67583")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 87.63 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7eef5d24-680b-42b4-9c00-49f7a4d43030")
+		(property "Reference" "H5"
+			(at 90.17 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 90.17 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Mousebites:mouse-bite-5mm-slot"
+			(at 87.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 87.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "H5")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 256.54 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f1e5c6b-6d5d-4cd0-a423-1ebce0fe83b2")
+		(property "Reference" "SW23"
+			(at 256.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e170178-0aee-4385-8546-0fcf36e4f97d")
+		)
+		(pin "2"
+			(uuid "bbe5ad01-827c-49f0-bf07-0d3706ecc20d")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW23")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 173.99 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "803fbbc3-2865-44dd-a693-f846182c0f0d")
+		(property "Reference" "SW49"
+			(at 173.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 173.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 173.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 173.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e08b5f07-a53e-4e4b-ad87-c3b4222b401c")
+		)
+		(pin "2"
+			(uuid "989a55f3-a083-4b8f-aa82-8ba37f44b247")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW49")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 223.52 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84fb07a3-6695-43b0-9577-79a2d19f8337")
+		(property "Reference" "SW55"
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 223.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 223.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5aa48a4f-a46f-4b3e-b75f-2e8200e4ac6c")
+		)
+		(pin "2"
+			(uuid "8a598d9f-8e34-42ed-b496-049f32bfb53c")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW55")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 207.01 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86c9fae6-94f8-4a89-bc65-e6a08fdae804")
+		(property "Reference" "SW29"
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 207.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c92d501-63a0-47ee-a875-957af4304c09")
+		)
+		(pin "2"
+			(uuid "f3ec8088-cafd-42b0-ab2c-f3b1ebf18cd0")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW29")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b09cc0a-0d52-4edd-bcb5-456870f34403")
+		(property "Reference" "#PWR07"
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2275c27d-da9c-4206-8de1-6ba3a2ae9eed")
+		)
+		(instances
+			(project ""
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 228.6 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e48e437-bbc9-4d24-b8e8-097f960a4c05")
+		(property "Reference" "D7"
+			(at 231.14 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 231.14 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00820794-d423-4f59-82af-f5bf6443064a")
+		)
+		(pin "2"
+			(uuid "8794876a-5a56-492e-9ff5-2aec4cbc20f2")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 240.03 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f348632-9a5b-4711-93f5-a0d474083e6f")
+		(property "Reference" "SW33"
+			(at 240.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 240.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 240.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 240.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dee6c2e6-f8a7-4c2d-bade-456a6be62920")
+		)
+		(pin "2"
+			(uuid "b15c8b05-e078-48fb-b752-966c836b0445")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW33")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 240.03 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92e52489-0e41-47dc-bc39-8064d4924747")
+		(property "Reference" "SW21"
+			(at 240.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 240.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 240.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 240.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec74851c-b806-40bd-a00b-53f129517931")
+		)
+		(pin "2"
+			(uuid "b7ef12a1-93c8-4aba-837c-57c64a48e5b5")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW21")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 212.09 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99cc5c6b-d5b1-493f-82a5-784e8c088176")
+		(property "Reference" "D5"
+			(at 214.63 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 214.63 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15e24364-1fbe-40c2-825c-ac7e0f99a0d1")
+		)
+		(pin "2"
+			(uuid "f0c7ef88-3adf-4c4b-8a16-e1dbb56a9f09")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 95.25 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9abd4c8e-b164-4696-8208-e8dbf233c53d")
+		(property "Reference" "H7"
+			(at 97.79 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 97.79 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Mousebites:mouse-bite-5mm-slot"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "H7")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9be4a3fa-b25c-42d3-89ec-89d44ad9db08")
+		(property "Reference" "#PWR03"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3df21598-5a31-4099-8ee7-2a8298c6d685")
+		)
+		(instances
+			(project ""
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 212.09 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e6384ef-067b-4661-93aa-5b3c8d0e79fb")
+		(property "Reference" "D41"
+			(at 214.63 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 214.63 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 212.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 212.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 212.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab04b0b2-b311-4dfb-a05d-f40ddd8e1101")
+		)
+		(pin "2"
+			(uuid "55d1ab6a-7d27-41af-a9a7-410a35570e64")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D41")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 245.11 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f31bac5-9e7d-4088-82ea-65c0eab4f73c")
+		(property "Reference" "D9"
+			(at 247.65 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 247.65 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 245.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 245.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 245.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8b20c4a-93b2-4109-a620-4501f94ecf53")
+		)
+		(pin "2"
+			(uuid "36648fab-8a8d-4558-bf70-dd0928b034f3")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 179.07 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2ab936d-b194-4da5-afad-3787ef0c606c")
+		(property "Reference" "D25"
+			(at 181.61 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 181.61 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc197bf7-1ebd-456a-b45c-f0688399efc5")
+		)
+		(pin "2"
+			(uuid "b1d4eb11-b5f2-48bf-95dc-af20958bf0c3")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 190.5 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8b9957c-0682-4643-97c6-dddd6f3ecaea")
+		(property "Reference" "SW51"
+			(at 190.5 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 190.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 190.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 190.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "560b5906-5eaa-479f-9003-a0d957cc0b48")
+		)
+		(pin "2"
+			(uuid "be7c91d7-915d-40c3-9fcb-f6b80f5cf3a6")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW51")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 92.71 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad2de804-21aa-48d3-9d01-92c01a80f62b")
+		(property "Reference" "2M1"
+			(at 92.71 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 92.71 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 92.71 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "896f89c9-5731-4dbf-9e15-69a4cb52c6a9")
+		)
+		(pin "1"
+			(uuid "fde822c1-49fc-49b3-a457-5bfb90694958")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "2M1")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "2M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 173.99 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adb89239-aff5-4df9-b02f-62d653b624e5")
+		(property "Reference" "SW25"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7252f466-f107-4d65-a318-e098c229d313")
+		)
+		(pin "2"
+			(uuid "832b026c-61f9-4878-9848-ad62a8dc50dd")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW25")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 190.5 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "addf9191-101c-48ba-8789-01dc18c03ed3")
+		(property "Reference" "SW39"
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 190.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 190.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 190.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "777c283c-b96e-4907-8752-cb58cc11d520")
+		)
+		(pin "2"
+			(uuid "48025a1f-ed4d-497e-a0d9-522f37ef3412")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW39")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 261.62 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b19ad53a-e7d3-4e4f-9d6d-932cb9f31ecc")
+		(property "Reference" "D47"
+			(at 264.16 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 264.16 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50bed0a2-28aa-4350-98aa-6a200aa024e1")
+		)
+		(pin "2"
+			(uuid "8221482d-5f88-42eb-9ea5-fea699806b63")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D47")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seeed_Studio_XIAO_Series:XIAO-nRF52840-SMD")
+		(at 82.55 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1f6ccce-3ac5-4ab3-95ea-eb7bff8da6bc")
+		(property "Reference" "U1"
+			(at 91.0433 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XIAO-nRF52840-SMD"
+			(at 91.0433 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Modified-XIAO:modified-XIAO-nRF52840-SMD"
+			(at 73.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b1d0e292-0314-4828-ae17-b68c2d1d2a93")
+		)
+		(pin "6"
+			(uuid "5599fba4-2cbe-4772-be9b-0e4e1677bd8c")
+		)
+		(pin "5"
+			(uuid "76c0b77a-0937-4f05-bac7-7f3579fff790")
+		)
+		(pin "19"
+			(uuid "a895fc33-5b7d-448f-a9ac-b8ba4c88cb66")
+		)
+		(pin "16"
+			(uuid "03f2129a-3d01-4aa5-b34a-90e95bac9773")
+		)
+		(pin "7"
+			(uuid "719cda6a-7837-4ae4-a7a2-e609b4e8d369")
+		)
+		(pin "17"
+			(uuid "fcd7a787-fc10-4e5e-8602-3c29eddb5774")
+		)
+		(pin "15"
+			(uuid "40362a85-5cb4-4028-bb78-9205801c2ed7")
+		)
+		(pin "22"
+			(uuid "fbfae6dc-d732-41c3-b219-d0344aef4c60")
+		)
+		(pin "20"
+			(uuid "4e96c00d-a421-49a8-be12-05a322c77df3")
+		)
+		(pin "13"
+			(uuid "53d90cdb-7744-46ca-8ade-c0ea0e67397c")
+		)
+		(pin "21"
+			(uuid "01aeedb0-e5f7-4b6d-9e65-42ec359b375c")
+		)
+		(pin "12"
+			(uuid "52acbe27-5ebc-4d1e-86b0-3436aa5dd01d")
+		)
+		(pin "18"
+			(uuid "08de70d4-4188-4c18-92bd-0bae0c0f3b24")
+		)
+		(pin "9"
+			(uuid "0a760139-8756-45c6-9d9f-826ca47fa6db")
+		)
+		(pin "14"
+			(uuid "69886701-20d5-4d19-9603-62c18e8f6ad6")
+		)
+		(pin "11"
+			(uuid "6cb01453-d3f5-4012-a196-513abf6298e0")
+		)
+		(pin "10"
+			(uuid "be00e19c-88a5-4490-b01c-204768956edf")
+		)
+		(pin "1"
+			(uuid "741e3c95-6b00-4230-aab5-005c8cb4ae66")
+		)
+		(pin "2"
+			(uuid "0a375367-5185-42ba-a42f-7fe513f6a1a9")
+		)
+		(pin "3"
+			(uuid "8a2b05dc-37b5-4202-9b47-4fd186aaacb6")
+		)
+		(pin "8"
+			(uuid "83296b27-c815-485b-a30b-90de966e6de4")
+		)
+		(instances
+			(project ""
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 212.09 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0e0f2b0-8189-4b39-ae65-5dbd24ad83d3")
+		(property "Reference" "D53"
+			(at 214.63 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 214.63 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "612d2356-3c17-4b25-83f4-2f57203192e1")
+		)
+		(pin "2"
+			(uuid "18caff9b-3f76-4d40-9712-857e523ecd25")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D53")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 245.11 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c16434c4-56d7-4339-9710-202b5b8f45b3")
+		(property "Reference" "D45"
+			(at 247.65 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 247.65 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 245.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 245.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 245.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd2525a0-aa09-4eb2-b32c-6b78f02c53f5")
+		)
+		(pin "2"
+			(uuid "c040b2e0-bb20-4d61-bf62-4ff2b401169b")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D45")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 245.11 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c20cde8b-b37c-425b-9954-37fe2a56a0ac")
+		(property "Reference" "D33"
+			(at 247.65 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 247.65 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cabbeca6-10da-443c-aec8-b725e49a9f1e")
+		)
+		(pin "2"
+			(uuid "d5c991da-8e5f-4816-8337-44af628c9b51")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D33")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 223.52 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3999ebf-2e03-4c76-abf6-80c377a2a9df")
+		(property "Reference" "SW19"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 223.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 223.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "979b593a-89be-46fa-8e9d-efa0d2e68107")
+		)
+		(pin "2"
+			(uuid "1cd5678b-c3bc-451c-8f6f-28bb6b78c627")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW19")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 195.58 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c91bc584-7b45-4467-9fb3-37745ce0cbc1")
+		(property "Reference" "D27"
+			(at 198.12 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 198.12 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6f1a5ca-467c-422b-842b-4ae05fddb7a2")
+		)
+		(pin "2"
+			(uuid "e2b35e5c-8d09-49cc-a1a6-c73457d563a9")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 240.03 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce9c9031-8028-4aed-868f-ec8539e2e1fc")
+		(property "Reference" "SW57"
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 240.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 240.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 240.03 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fd3e37a-32db-47e3-ae4e-9a1364ff035e")
+		)
+		(pin "2"
+			(uuid "50b13a04-5cc0-487d-b7fc-593af1ecd438")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW57")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 179.07 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d53b20d4-06d4-498e-b2ac-2ba6e1a8e025")
+		(property "Reference" "D13"
+			(at 181.61 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 181.61 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a45609b-5799-487d-81bc-5db68059f97b")
+		)
+		(pin "2"
+			(uuid "44d322ae-b925-42af-b059-6ed322d3deb3")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 228.6 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d65c5bd9-46a7-4dc8-846e-e9bd6e9fe584")
+		(property "Reference" "D31"
+			(at 231.14 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 231.14 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5856845c-3ffb-4866-9506-168c5223e660")
+		)
+		(pin "2"
+			(uuid "12c3c11a-665a-44a8-bd91-cce64f8e23e0")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 179.07 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de31e4c2-6286-4f74-b385-2b204c40df4c")
+		(property "Reference" "D37"
+			(at 181.61 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 181.61 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41ad474d-2d87-4bd5-a5f9-ecb1ffcb00de")
+		)
+		(pin "2"
+			(uuid "08744494-1adc-48e0-a75a-1e320e947d85")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D37")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 261.62 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e13921b5-63b3-432a-8b22-368518f2fe68")
+		(property "Reference" "D35"
+			(at 264.16 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 264.16 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 261.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a154a259-e966-493b-b138-bcd098fcb8a7")
+		)
+		(pin "2"
+			(uuid "cd9c8896-f4a5-407a-8886-b46c8c084420")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D35")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 256.54 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3dd5f56-71b0-4313-a558-b18ad9dab94b")
+		(property "Reference" "SW11"
+			(at 256.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a473a75-d319-4f36-973d-068be6c96726")
+		)
+		(pin "2"
+			(uuid "f53bf7de-b8b8-46bc-98bf-34caec60c619")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW11")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 173.99 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e60623c7-f7bc-4412-a12b-622bc50e3ef7")
+		(property "Reference" "SW1"
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03fe75b2-d5c4-41ad-9b7c-5129829e27c6")
+		)
+		(pin "2"
+			(uuid "42e59ae6-21a2-4207-b537-637f2c925449")
+		)
+		(instances
+			(project ""
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW1")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 195.58 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7cbff97-37c8-4c92-81eb-f33e93578981")
+		(property "Reference" "D15"
+			(at 198.12 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 198.12 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a60b3453-fb69-4873-bbd4-4d89eb03cb75")
+		)
+		(pin "2"
+			(uuid "ab37c01b-5681-434a-8e95-924b4691bbcc")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 228.6 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea3cad12-fb68-47a5-8dac-3b54b257b902")
+		(property "Reference" "D43"
+			(at 231.14 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 231.14 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 228.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 228.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 228.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 228.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2befd2c-8401-439a-9ac1-017307b27557")
+		)
+		(pin "2"
+			(uuid "76885803-a36c-4902-8550-e527eaca6490")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D43")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 256.54 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb0c2873-a931-4c6d-beb6-42e849298215")
+		(property "Reference" "SW47"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 256.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ac399c6-caa2-4720-8085-15f8bcdc4396")
+		)
+		(pin "2"
+			(uuid "a3f51865-4247-4a70-a827-49ea65ccbfeb")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW47")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 223.52 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebbfb24e-4f63-4385-9154-06a021eb9cb7")
+		(property "Reference" "SW31"
+			(at 223.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 223.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 223.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f158cab0-ef16-41e1-b292-3f569c2015d7")
+		)
+		(pin "2"
+			(uuid "1cea2a9d-bfff-4f03-8cee-a7d497eec4bf")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW31")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2402763-150e-4c9d-a482-7318c0afda24")
+		(property "Reference" "#PWR05"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b663924c-c2ea-4e82-8d1e-d0b2642a008e")
+		)
+		(instances
+			(project ""
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 261.62 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4bffd08-fe33-461c-b3ec-497f40515f8f")
+		(property "Reference" "D11"
+			(at 264.16 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 264.16 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51acc41f-34cb-4917-855c-8f9b1a99e742")
+		)
+		(pin "2"
+			(uuid "6f8b80a4-371e-4e65-a6e8-58bda3d1650d")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 240.03 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbcb7edb-0314-4e70-866f-988ee28cf683")
+		(property "Reference" "SW45"
+			(at 240.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6865adf-97b6-4ae5-84d9-daaf8e5cb068")
+		)
+		(pin "2"
+			(uuid "b4b79c3e-1879-4f86-bc44-8ba973d0d30d")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "SW45")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "SW46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7e3c47-7de1-4d98-bcde-ae4c7ad51b87")
+		(property "Reference" "#PWR01"
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dac6bb09-90fb-424c-8765-789acd910588")
+		)
+		(instances
+			(project ""
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/0dd3519e-afe8-4ffc-a19f-8c16f1868f55"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/edee2d8b-ca1a-4b55-81e8-bc5b32bb2dff"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
