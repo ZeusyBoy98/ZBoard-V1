@@ -2835,10 +2835,6 @@
 		(uuid "1bf10939-925a-4224-a9ef-847ee2a76ec6")
 	)
 	(no_connect
-		(at 62.23 184.15)
-		(uuid "1c099358-443d-4c2a-80f4-ec6899ab6e62")
-	)
-	(no_connect
 		(at 87.63 213.36)
 		(uuid "2699a7d7-1c10-4b4c-a2a3-72cb91a5820b")
 	)
@@ -2869,6 +2865,10 @@
 	(no_connect
 		(at 44.45 172.72)
 		(uuid "92cba365-e096-41ac-ae9e-ae3ba87ffc46")
+	)
+	(no_connect
+		(at 48.26 172.72)
+		(uuid "b8093c5e-eba0-4428-9e92-1b8e1b8b936b")
 	)
 	(wire
 		(pts
@@ -5290,12 +5290,6 @@
 			(uuid "1cdcb036-9071-405e-8108-09aa0d854d77")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D84")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D60")
@@ -5384,12 +5378,6 @@
 			(uuid "4e3c9067-0a7d-479d-b94d-c94a28151dd8")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D53")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D40")
@@ -5458,12 +5446,6 @@
 			(uuid "9b23e319-6e3e-46c1-93b4-8ea1497b9538")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW46")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW83")
@@ -5552,12 +5534,6 @@
 			(uuid "ca8b753d-0de0-4a3a-9b43-9c5b9232b6f0")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D40")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D51")
@@ -5646,12 +5622,6 @@
 			(uuid "74a4a04f-d259-4133-b1bf-20856e61ae79")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D42")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D63")
@@ -5740,12 +5710,6 @@
 			(uuid "2903fdfe-9fc7-438a-8d56-458cdaf4c27d")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D74")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D80")
@@ -5834,12 +5798,6 @@
 			(uuid "1c3acb16-23a5-42a0-8106-2386addda7c7")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D45")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D78")
@@ -5908,12 +5866,6 @@
 			(uuid "a05872ee-c662-4ac4-a3dd-6b45a00e7f41")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW70")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW59")
@@ -5982,12 +5934,6 @@
 			(uuid "f34b07b3-2ff9-4b53-9fbd-6d4c64cc891b")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW43")
@@ -6055,12 +6001,6 @@
 			(uuid "ae5c527f-10a7-4e67-b363-85fcc8cf2857")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "#PWR0109")
@@ -6264,12 +6204,6 @@
 			(uuid "cb041897-e159-4467-a907-a028ae03ec74")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW10")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW55")
@@ -6410,12 +6344,6 @@
 			(uuid "ce087e4b-a8f8-4cbd-b574-ccd3221e46ed")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW71")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW65")
@@ -6484,12 +6412,6 @@
 			(uuid "85ddca46-d944-44fb-9349-6cc2e7ba5d47")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW12")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW66")
@@ -6578,12 +6500,6 @@
 			(uuid "5e50d993-6c98-42f8-a770-19e01b5e625e")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D73")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D75")
@@ -6652,12 +6568,6 @@
 			(uuid "cf27fa84-97a0-471d-941c-b5fa599c05b6")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW74")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW80")
@@ -6746,12 +6656,6 @@
 			(uuid "65d18ea9-fd61-4dc9-b7ce-896da1ec830b")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D12")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D66")
@@ -6820,12 +6724,6 @@
 			(uuid "17b0f587-b81c-4072-b67b-a0ade6192c66")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW39")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW45")
@@ -6894,12 +6792,6 @@
 			(uuid "3bb3c95a-f1db-4e8a-b6df-221e83cc949e")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW30")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW77")
@@ -6968,12 +6860,6 @@
 			(uuid "852ec963-86ed-4551-8c9c-7e8bb55e84bb")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW81")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW42")
@@ -7062,12 +6948,6 @@
 			(uuid "a6ae6bbc-a250-44f9-a602-9a5f0c88dac0")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D32")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D3")
@@ -7136,12 +7016,6 @@
 			(uuid "b91f6a12-281e-4c90-92f5-6c9066827348")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW49")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW16")
@@ -7230,12 +7104,6 @@
 			(uuid "9098eb01-ef56-425d-a512-4b05597bae6e")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D75")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D6")
@@ -7304,12 +7172,6 @@
 			(uuid "e4ef57a2-a95e-4ce4-b90b-34d36eec8397")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW68")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW47")
@@ -7375,12 +7237,6 @@
 			(uuid "0a1d46d0-b52b-4577-b873-46a529ab5496")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "TP2")
@@ -7449,12 +7305,6 @@
 			(uuid "7fc328a6-bc68-47d1-8dac-989c64a9865b")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW25")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW50")
@@ -7543,12 +7393,6 @@
 			(uuid "031ca61c-506f-4b33-ae74-6ab54ad4c1eb")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D65")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D29")
@@ -7617,12 +7461,6 @@
 			(uuid "2f2c3dbe-5749-4182-abff-09e165accd6f")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW19")
@@ -7691,12 +7529,6 @@
 			(uuid "1c6b91a5-a637-42e0-89e7-a6411ce7cec3")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW45")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW78")
@@ -7785,12 +7617,6 @@
 			(uuid "90f95b49-eae6-4165-a99a-16719b68c5be")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D9")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D49")
@@ -7879,12 +7705,6 @@
 			(uuid "1d443883-c9fb-441e-8f17-6fbfc76c43cb")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D62")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D11")
@@ -7973,12 +7793,6 @@
 			(uuid "4d526605-609f-40a1-b6a7-1ba58221cdc6")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D80")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D36")
@@ -8067,12 +7881,6 @@
 			(uuid "3a9a91de-1c3e-4636-921f-179ca25e176b")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D81")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D42")
@@ -8141,12 +7949,6 @@
 			(uuid "58b199ce-754f-453d-870b-78d302fb364b")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW40")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW51")
@@ -8215,12 +8017,6 @@
 			(uuid "d4f224fb-0551-497f-9875-ac7bc7ff0823")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW57")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW64")
@@ -8289,12 +8085,6 @@
 			(uuid "53754486-26ce-4656-b133-f507c03eb85c")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW41")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW57")
@@ -8363,12 +8153,6 @@
 			(uuid "d7ff712c-3931-478a-8804-5192116dd128")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW27")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW62")
@@ -8510,12 +8294,6 @@
 			(uuid "785ccc7d-3cb4-477c-9cfb-2b72b50dde96")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW47")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW4")
@@ -8604,12 +8382,6 @@
 			(uuid "796d2a41-aad7-4910-8196-b0eb3bccbb56")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D27")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D62")
@@ -8698,12 +8470,6 @@
 			(uuid "0f81941a-e68e-4b16-b545-16414e49e0fd")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D48")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D10")
@@ -8772,12 +8538,6 @@
 			(uuid "60ec073b-b11d-48f6-bf2a-574cbd3e76c0")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW60")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW79")
@@ -8846,12 +8606,6 @@
 			(uuid "66efcc9b-438c-4332-98b7-894e38b17050")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW77")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW18")
@@ -8920,12 +8674,6 @@
 			(uuid "8dc558d0-f116-4191-a781-8eb609b4e397")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW38")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW39")
@@ -8994,12 +8742,6 @@
 			(uuid "b039ab37-d41a-448d-9e53-711608b29712")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW56")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW58")
@@ -9068,12 +8810,6 @@
 			(uuid "1d1f0c52-ee50-4210-ac4f-cd1e459400d1")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW65")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW29")
@@ -9142,12 +8878,6 @@
 			(uuid "b9ff3942-7c7d-49cd-8cda-0486a41e1708")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW14")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW76")
@@ -9236,12 +8966,6 @@
 			(uuid "3fc75940-2c9b-420e-9cfb-a7cc7d9996b6")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D76")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D12")
@@ -9330,12 +9054,6 @@
 			(uuid "c2529f43-4f83-46d5-9d2f-326e61b06d7f")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D51")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D28")
@@ -9424,12 +9142,6 @@
 			(uuid "be5e12ef-ae8c-4baf-b5de-ebcc01963cdc")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D52")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D34")
@@ -9518,12 +9230,6 @@
 			(uuid "1b404f84-cc2e-4c67-8a8e-0abeded74bf4")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D11")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D61")
@@ -9612,12 +9318,6 @@
 			(uuid "92705fd0-f52e-44b2-8982-236045522dd4")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D49")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D16")
@@ -9685,12 +9385,6 @@
 			(uuid "ec2104ae-51d6-484f-ba3f-5412733fcde8")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "#PWR0104")
@@ -9759,12 +9453,6 @@
 			(uuid "7326d333-2ceb-4b8a-8750-e48905ede75a")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW16")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW84")
@@ -9853,12 +9541,6 @@
 			(uuid "093b3f7c-85ee-44ce-a010-ecd2ae099cc3")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D5")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D25")
@@ -9947,12 +9629,6 @@
 			(uuid "3cea169b-b6fe-4846-9b0b-8819a03f4688")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D8")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D43")
@@ -10041,12 +9717,6 @@
 			(uuid "dd0020e5-ed03-42ef-bc4c-3c65fe3642d3")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D59")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D74")
@@ -10135,12 +9805,6 @@
 			(uuid "56b5343a-12ce-4a67-b9fd-b3a0ffc1f9c8")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D36")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D27")
@@ -10209,12 +9873,6 @@
 			(uuid "4c30ae75-b8f5-4c13-b681-d64c986a9c86")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW72")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW70")
@@ -10283,12 +9941,6 @@
 			(uuid "7501c93e-f3c1-4edc-99d2-74ff7b8b85d5")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW52")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW34")
@@ -10357,12 +10009,6 @@
 			(uuid "508f59fb-dbb3-4cf1-9a05-e6d2e2c7669c")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW73")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW75")
@@ -10431,12 +10077,6 @@
 			(uuid "b9db4644-990d-4f72-99fa-7bce0079181c")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW11")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW61")
@@ -10525,12 +10165,6 @@
 			(uuid "be34383d-e002-4057-af36-0cf6bbae3d3e")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D79")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D30")
@@ -10599,12 +10233,6 @@
 			(uuid "65471c30-0431-4862-9f09-b462bf50a0f2")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW18")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW8")
@@ -10672,12 +10300,6 @@
 			(uuid "a6da08c6-833f-4902-a853-153e438fd003")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "#PWR0103")
@@ -10746,12 +10368,6 @@
 			(uuid "65d5cd94-7b5b-4cae-a819-65598d2044c3")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW66")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW35")
@@ -10840,12 +10456,6 @@
 			(uuid "e7480565-c327-4fab-bfcf-67b83ea036df")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D72")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D70")
@@ -10934,12 +10544,6 @@
 			(uuid "5857c5d6-d365-4765-af28-ea88f9ffef2c")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D54")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D46")
@@ -11081,12 +10685,6 @@
 			(uuid "3def9cb3-2729-4100-8976-caaa256fdb65")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW20")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW20")
@@ -11155,12 +10753,6 @@
 			(uuid "32f0bdfd-a4a1-4a77-823b-70eba845efc1")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW29")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW72")
@@ -11229,12 +10821,6 @@
 			(uuid "49877e09-3e22-43e2-bd7f-7f746f5cc5c5")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW67")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW41")
@@ -11303,12 +10889,6 @@
 			(uuid "a1d1c114-ad1f-47cd-bbce-1f95443c8c1b")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW36")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW27")
@@ -11397,12 +10977,6 @@
 			(uuid "ed0b3b1a-4e82-447f-b7e0-a024431f8530")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D82")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D48")
@@ -11491,12 +11065,6 @@
 			(uuid "ff9d71d9-1886-47f2-abb0-e5b9e28c23ad")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D71")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D65")
@@ -11565,12 +11133,6 @@
 			(uuid "f6761821-6fdb-4d85-8c96-8950d9c174cb")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW13")
@@ -11639,12 +11201,6 @@
 			(uuid "31f8de84-3272-43b5-96ad-a0ab0ee31b61")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW44")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW73")
@@ -11713,12 +11269,6 @@
 			(uuid "3a0fd46b-140d-4928-bfb1-cb0cca3fe3a6")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW31")
@@ -11787,12 +11337,6 @@
 			(uuid "31f7b08c-69e3-48fd-929f-be853d5caebc")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW76")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW12")
@@ -11861,12 +11405,6 @@
 			(uuid "b1a8d793-4db7-4bdc-98bb-92401e895830")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW80")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW36")
@@ -11955,12 +11493,6 @@
 			(uuid "983738ec-8228-44b5-851a-3f8856d44030")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D68")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D47")
@@ -12029,12 +11561,6 @@
 			(uuid "02322d36-b1aa-4e65-b6d1-1278a04096a8")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW49")
@@ -12103,12 +11629,6 @@
 			(uuid "9d349875-cbee-40f7-b82e-d73296fc011a")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW21")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW26")
@@ -12197,12 +11717,6 @@
 			(uuid "aa79eaf6-256a-417e-ae50-78b5338b3d8d")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D39")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D45")
@@ -12271,12 +11785,6 @@
 			(uuid "46adf9b9-751e-4ae3-81c8-2375039ecb6a")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW28")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW67")
@@ -12345,12 +11853,6 @@
 			(uuid "a5554446-5e31-4b2e-9ecf-49bb241b19bd")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW51")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW28")
@@ -12439,12 +11941,6 @@
 			(uuid "b782d0b4-b3fc-49eb-9396-5e009631d138")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D63")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D17")
@@ -12513,12 +12009,6 @@
 			(uuid "9842aa77-fb45-462f-9a07-5c920b6ddb49")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW42")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW63")
@@ -12790,12 +12280,6 @@
 			(uuid "fc4924bf-9af0-4b20-ab89-551c06f19e55")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW82")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW48")
@@ -12884,12 +12368,6 @@
 			(uuid "156295d8-1674-448f-9295-586ad45fe79c")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D38")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D39")
@@ -12978,12 +12456,6 @@
 			(uuid "5a3426f4-a874-45af-8925-ba84c4c817c1")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D10")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D55")
@@ -13052,15 +12524,76 @@
 			(uuid "9c02b354-2cb2-4a6c-9752-c464949bb458")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW48")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 62.23 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d046dcd-5001-430e-b31d-22fc4b6d5441")
+		(property "Reference" "#PWR01"
+			(at 58.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 66.04 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 62.23 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd4f9232-c8eb-456d-ab28-6d8c9dfa9962")
+		)
+		(instances
+			(project "ZBoard V1"
+				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -13126,12 +12659,6 @@
 			(uuid "f632b4b8-cfd9-4405-bdec-55f587e771c2")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW53")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW40")
@@ -13200,12 +12727,6 @@
 			(uuid "9cd98fd8-c8aa-443e-99c6-6f3eefffba9e")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW79")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW30")
@@ -13294,12 +12815,6 @@
 			(uuid "9e91b78b-a810-4819-a25b-894ecfea49d8")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D31")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D82")
@@ -13388,12 +12903,6 @@
 			(uuid "81dcf958-dbd7-4cf4-b661-4c945d35d49f")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D26")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D56")
@@ -13462,12 +12971,6 @@
 			(uuid "d141ca96-31b2-46f1-8255-970c79b10984")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW15")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW81")
@@ -13536,12 +13039,6 @@
 			(uuid "bdcbbef5-8fb2-44c8-a38f-3c17d46b3ef9")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW64")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW23")
@@ -13610,12 +13107,6 @@
 			(uuid "59e57b45-d68c-4057-8941-39f13c79fd5c")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW75")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW6")
@@ -13704,12 +13195,6 @@
 			(uuid "1768cf8c-1259-4162-acd6-2ba68fbab5dd")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D70")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D59")
@@ -13798,12 +13283,6 @@
 			(uuid "8324ee9c-bd95-482b-99f1-45aa85f44723")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D2")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D7")
@@ -13892,12 +13371,6 @@
 			(uuid "b802d3e9-3f66-4a28-b509-058ccd452d35")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D4")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D19")
@@ -13986,12 +13459,6 @@
 			(uuid "6ee10de6-d172-4fcf-bbb7-d7ec94660e2b")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D83")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D54")
@@ -14060,12 +13527,6 @@
 			(uuid "bb5d06be-fedd-406a-a413-84fa1ff2710f")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW37")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW33")
@@ -14154,12 +13615,6 @@
 			(uuid "f889c736-8aea-4103-b40c-a22001111409")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D69")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D53")
@@ -14248,12 +13703,6 @@
 			(uuid "3a9bc75d-8f9f-421c-9bf6-80525bc9888a")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D77")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D18")
@@ -14322,12 +13771,6 @@
 			(uuid "c8b49093-b626-4f93-b9e6-9c2e171293e4")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW13")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW71")
@@ -14396,12 +13839,6 @@
 			(uuid "4c7b4c73-adc5-4c7b-8cad-b165cdac7bbe")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW83")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW54")
@@ -14490,12 +13927,6 @@
 			(uuid "5f511c7e-6e5f-4cc8-a46d-ccb7c4f1a4be")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D37")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D33")
@@ -14584,12 +14015,6 @@
 			(uuid "01866363-024c-431b-a3b0-20105b623fbc")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D50")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D22")
@@ -14678,12 +14103,6 @@
 			(uuid "ab4cb2b3-a118-4032-a58f-82da2e25d004")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D19")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D14")
@@ -14772,12 +14191,6 @@
 			(uuid "a3980172-8a4f-4e66-adb2-d00cb3958c15")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D13")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D71")
@@ -14866,12 +14279,6 @@
 			(uuid "8e8b999d-cea7-4706-8940-53a4c3937bf0")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D44")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D73")
@@ -14940,12 +14347,6 @@
 			(uuid "9f276844-5931-46f7-86ab-910e17888ee6")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW54")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW46")
@@ -15014,12 +14415,6 @@
 			(uuid "4e253400-02cc-4a75-b2eb-cea47e293795")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW19")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW14")
@@ -15108,12 +14503,6 @@
 			(uuid "0db2d3d2-d763-48b0-a214-50b6c91dddb1")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D66")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D35")
@@ -15182,12 +14571,6 @@
 			(uuid "c714eb2d-2dc6-47cb-9bd5-619d00fdba2e")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW25")
@@ -15256,12 +14639,6 @@
 			(uuid "7fe71749-649f-4dba-9d17-f965134205be")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW69")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW53")
@@ -15350,12 +14727,6 @@
 			(uuid "5364795e-9d7e-472a-833d-9f1d22602cfa")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D61")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D5")
@@ -15444,12 +14815,6 @@
 			(uuid "4c75bebe-940d-42e0-8c93-d76f5d68c854")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D14")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D76")
@@ -15538,12 +14903,6 @@
 			(uuid "aef3076b-0660-48bb-af12-8ae41b5ce159")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D67")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D41")
@@ -15632,12 +14991,6 @@
 			(uuid "5d50f87d-f5da-43b9-a41b-e303da78776e")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D33")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D9")
@@ -15706,12 +15059,6 @@
 			(uuid "63285739-5097-457c-9378-0515d98d9ce9")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW7")
@@ -15780,12 +15127,6 @@
 			(uuid "22653bdf-6664-441e-8af0-cf5d05abe8f4")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW43")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW68")
@@ -15854,12 +15195,6 @@
 			(uuid "6719ce45-c5b1-4a6d-82f2-5c7786055867")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW62")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW11")
@@ -16093,12 +15428,6 @@
 			(uuid "5fed98e9-13d1-4d9c-a0ab-f8c1da19ecf5")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW59")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW74")
@@ -16187,12 +15516,6 @@
 			(uuid "afc5f3d6-0969-48d7-8fc0-22c54d69c899")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D18")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D8")
@@ -16281,12 +15604,6 @@
 			(uuid "64b83bd3-c0f1-485e-a918-3a0a3a59bbcd")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D55")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D52")
@@ -16375,12 +15692,6 @@
 			(uuid "b5811235-0f76-4dac-a2da-e492d29b10b1")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D7")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D37")
@@ -16469,12 +15780,6 @@
 			(uuid "d6b9acf1-d6e1-467e-b5e9-fff8b1edd7c7")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D58")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D69")
@@ -16563,12 +15868,6 @@
 			(uuid "65b0bfdb-2e91-45c5-b6f5-dd1c890501b9")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D17")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D2")
@@ -16657,12 +15956,6 @@
 			(uuid "3d0857f1-a2d0-4365-a0f5-86228cee09c4")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D29")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D72")
@@ -16731,12 +16024,6 @@
 			(uuid "19ec9f92-d659-47f5-a9e1-956e21bbb570")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW61")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW5")
@@ -16805,12 +16092,6 @@
 			(uuid "ff655ac6-957f-420c-b04b-d9a3b3d2c423")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW78")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW24")
@@ -16899,12 +16180,6 @@
 			(uuid "41c0991f-a95f-48ab-b91c-0d6f4a1cb42f")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D43")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D68")
@@ -16993,12 +16268,6 @@
 			(uuid "d8742c25-bc09-41b3-a3a6-54a5704767a0")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D24")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D44")
@@ -17067,12 +16336,6 @@
 			(uuid "25c8fa52-fa16-45e1-8925-012c875ec0e2")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW24")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW44")
@@ -17161,12 +16424,6 @@
 			(uuid "073ec6af-7c4a-4230-9a1f-12d1914ae916")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D35")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D21")
@@ -17235,12 +16492,6 @@
 			(uuid "46ec5d83-b81e-4ba5-a6a2-99ba2c7b5451")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW63")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW17")
@@ -17329,12 +16580,6 @@
 			(uuid "306c8e53-a99b-4b60-b06d-6637a9f851f5")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D78")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D24")
@@ -17423,12 +16668,6 @@
 			(uuid "58ba87cf-681b-421c-b1a2-0bbf7d3a36e8")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D23")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D38")
@@ -17517,12 +16756,6 @@
 			(uuid "54933226-78b2-4bfe-93a0-1e7450397b5a")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D16")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D84")
@@ -17591,12 +16824,6 @@
 			(uuid "a4224419-55eb-4a4e-9a3f-855baae9167c")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW32")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW3")
@@ -17665,12 +16892,6 @@
 			(uuid "8eff5eec-07ba-4cc0-8220-e318baa0d057")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW23")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW38")
@@ -17759,12 +16980,6 @@
 			(uuid "7a2848f5-f368-44ed-b0f6-7d27df84b674")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D28")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D67")
@@ -17853,12 +17068,6 @@
 			(uuid "f959fa4c-10bb-4bca-87c2-4167dd69cfd2")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D56")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D58")
@@ -17927,12 +17136,6 @@
 			(uuid "202cfe22-e6a3-48e5-8f79-60cb835bd557")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW35")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW21")
@@ -18074,12 +17277,6 @@
 			(uuid "afedcffc-fbb5-4371-8c46-295163dcb093")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW17")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW2")
@@ -18168,12 +17365,6 @@
 			(uuid "93ce9795-a1bf-4b2e-b14a-3f1e5edca1c2")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D47")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D4")
@@ -18262,12 +17453,6 @@
 			(uuid "9b4337c4-c802-42d0-b51d-7833ae55a103")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D60")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D79")
@@ -18356,12 +17541,6 @@
 			(uuid "e1604201-b8c1-4c28-9a0b-dd9ea6990865")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D22")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D32")
@@ -18430,12 +17609,6 @@
 			(uuid "dfe3a369-8b69-455a-9aeb-6227617cee03")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW22")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW32")
@@ -18524,12 +17697,6 @@
 			(uuid "b8c89dc3-cf68-4647-9bab-513e49302297")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D41")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D57")
@@ -18598,12 +17765,6 @@
 			(uuid "51839d27-b3c7-4283-a241-9a4c013f25e8")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW33")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW9")
@@ -18692,12 +17853,6 @@
 			(uuid "93a6ffbb-95ee-4712-9b62-41d2e6e89441")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D25")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D50")
@@ -18766,12 +17921,6 @@
 			(uuid "a7108bd4-9420-4e8f-9d78-419d64410b08")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW26")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW56")
@@ -18840,12 +17989,6 @@
 			(uuid "f5e014ee-e17d-4ca2-b604-0b58c531230a")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW58")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW69")
@@ -18934,12 +18077,6 @@
 			(uuid "c9df8567-70e9-4043-8e10-33670ad1ebbd")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D20")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D20")
@@ -19008,12 +18145,6 @@
 			(uuid "01cac74b-ef21-4450-932f-e24518c2d0a1")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW84")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW60")
@@ -19102,12 +18233,6 @@
 			(uuid "f860a195-70b1-40cd-a7e2-2710928dc349")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D6")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D31")
@@ -19196,87 +18321,9 @@
 			(uuid "1c419098-155a-4d2b-bd58-9549e7269c82")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D3")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 48.26 172.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e32e136d-65d0-4fe5-be37-39cf26a7ae9b")
-		(property "Reference" "#PWR0108"
-			(at 48.26 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48da7ef9-df45-45a9-87ae-7bc7e0e265a7")
-		)
-		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-			(project "board"
-				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
-					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -19362,12 +18409,6 @@
 			(uuid "e00cf056-e112-4ff3-b304-7e22285f44e2")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D30")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D77")
@@ -19436,12 +18477,6 @@
 			(uuid "de458234-396f-496f-825f-44ae190d05ef")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW55")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW52")
@@ -19530,12 +18565,6 @@
 			(uuid "042d864a-1558-4ac1-9794-6de6cbbf4325")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D21")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D26")
@@ -19624,12 +18653,6 @@
 			(uuid "cbad076a-6978-4b26-98a1-1bd9ad44714e")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D15")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D81")
@@ -19698,12 +18721,6 @@
 			(uuid "9cef2ffc-89f6-4b33-a335-266a4d2a8dfd")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW50")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW22")
@@ -19845,12 +18862,6 @@
 			(uuid "6b84a4ce-751f-4f46-825b-a89ed49ce884")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW34")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW15")
@@ -19939,12 +18950,6 @@
 			(uuid "780a5b72-2103-4e4b-956d-5a4e048a3ba5")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D46")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D83")
@@ -20013,12 +19018,6 @@
 			(uuid "1f080f5e-5b23-44fb-9f1a-3ea8cef3a5c2")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "R2")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "R2")
@@ -20107,12 +19106,6 @@
 			(uuid "dad91e47-fcea-484c-add8-b3c7d0fa436b")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D64")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D23")
@@ -20201,12 +19194,6 @@
 			(uuid "61b1674b-ceb3-46c9-84e8-dc9301db3ce2")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D57")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D64")
@@ -20349,12 +19336,6 @@
 			(uuid "6c4dd67a-8799-4272-b032-ddc0697da6bb")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW37")
@@ -20389,7 +19370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1.75U"
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
 			(at 278.13 44.45 0)
 			(effects
 				(font
@@ -20423,12 +19404,6 @@
 			(uuid "bc5a010f-7408-4f2a-b49a-15a3561b7dca")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "SW31")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "SW82")
@@ -20591,12 +19566,6 @@
 			(uuid "a238cfcd-5cc3-4f55-9982-e942742606ed")
 		)
 		(instances
-			(project "ZBoard V1"
-				(path "/23c808cf-dda4-4bf4-9723-df4202bb5c94/2e65bb5f-7b36-4b37-9490-2152398bd7c4"
-					(reference "D34")
-					(unit 1)
-				)
-			)
 			(project "board"
 				(path "/819d4f94-7064-4a8d-9b8a-5bd14b8f17a8"
 					(reference "D15")
