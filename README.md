@@ -1,2 +1,2 @@
 # ZBoard-V1
-A wireless keyboard built to suite my needs
+A wireless keyboard built to suit my needs
