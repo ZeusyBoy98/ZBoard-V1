@@ -490,7 +490,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ZBoard V1.step",
+      "step": "../CAD/ZBoard-V1-PCB.step",
       "svg": "",
       "vrml": ""
     },
