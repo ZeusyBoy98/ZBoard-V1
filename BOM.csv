@@ -1,4 +1,4 @@
-"Qty","Value","Link","Price Individual (USD)","Price Sum (AUD)","Price Sum (USD)"
+"Qty","Component","Link","Price Individual (USD)","Price Sum (AUD)","Price Sum (USD)"
 "90","Diode","[DigiKey](https://www.digikey.com.au/en/products/detail/diodes-incorporated/1N5819HWQ-7-F/10294862)","0.43","35.10","23.76"
 "1","806k Resistor","[DigiKey](https://www.digikey.com.au/en/products/detail/yageo/MFR-25FBF52-806K/13696)","0.10","0.15","0.10"
 "1","2M Resistor","[DigiKey](https://www.digikey.com.au/en/products/detail/yageo/MFR-25FRF52-2M/9138956)","0.10","0.15","0.10"
@@ -8,4 +8,6 @@
 "1","Keycaps","[nuphy](https://nuphy.com/collections/keycaps/products/coast-twilight-nsa?_pos=13&_fid=0d62297cc&_ss=c)","24.00","34.08","24.00"
 "1","XIAO-nRF52840-SMD","[DigiKey](https://www.digikey.com.au/en/products/detail/seeed-technology-co-ltd/102010448/16652893)","9.96","14.71","9.96"
 "1","MCP23017-E_SP","[DigiKey](https://www.digikey.com.au/en/products/detail/microchip-technology/MCP23017-E-SP/894272)","1.69","2.50","1.69"
+"4","Heat set insert","[Core Electronics](https://core-electronics.com.au/brass-heat-set-inserts-for-plastic-m3-x-3mm-50-pack.html)","Already owned","",""
+"4","5mm M3 Screw","[Core Electronics](https://core-electronics.com.au/machine-screw-m3-5mm-length-phillips-25-pack.html)","Already owned","",""
 "Total","","","","150.54","104.91"
