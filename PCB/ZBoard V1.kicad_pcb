@@ -14012,7 +14012,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -19.82325 -90)
+			(at 0 -19.82325 270)
 			(layer "F.Fab")
 			(uuid "69b20409-5941-4579-a6c6-71644c18677c")
 			(effects
@@ -15763,7 +15763,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -19.82325 -90)
+			(at 0 -19.82325 270)
 			(layer "F.Fab")
 			(uuid "feedc94e-a8ea-4ded-8642-d729e52ff5bc")
 			(effects
@@ -24766,7 +24766,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -19.82325 -90)
+			(at 0 -19.82325 270)
 			(layer "F.Fab")
 			(uuid "38e4f8bc-9258-4f4d-9be6-988e4c74ee3a")
 			(effects
@@ -27393,7 +27393,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -19.82325 -90)
+			(at 0 -19.82325 270)
 			(layer "F.Fab")
 			(uuid "12f158e6-69ee-4fb5-9d07-6f27976a2b8d")
 			(effects
@@ -31528,7 +31528,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -19.82325 -90)
+			(at 0 -19.82325 270)
 			(layer "F.Fab")
 			(uuid "806c8cd6-3fb8-4e5f-be14-9d20d2b283f0")
 			(effects
@@ -33911,7 +33911,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -19.82325 -90)
+			(at 0 -19.82325 270)
 			(layer "F.Fab")
 			(uuid "34b84d9c-318e-4d75-8e0a-35583867eeee")
 			(effects
@@ -48667,7 +48667,7 @@
 			(uuid "21b279e7-50b8-4b4f-8c3e-c912e34b2bc2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 14.17675 -90)
+			(at 0 14.17675 270)
 			(layer "F.Fab")
 			(uuid "29f3803c-07d8-4224-998e-3f6612731b25")
 			(effects
@@ -75497,7 +75497,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 0 -19.82325 -90)
+			(at 0 -19.82325 270)
 			(layer "F.Fab")
 			(uuid "c920888d-0fd7-448b-a243-d33547b9f1d4")
 			(effects
@@ -75794,17 +75794,6 @@
 		)
 	)
 	(gr_rect
-		(start 31.2 67.2)
-		(end 91.5 77)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "d8ea2e3f-1b31-4989-8436-f16bc6ae7099")
-	)
-	(gr_rect
 		(start 12 12)
 		(end 345 131)
 		(stroke
@@ -75838,30 +75827,6 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "Z"
-		(at 12.55 135 0)
-		(layer "F.SilkS")
-		(uuid "ee5503ca-f757-47de-824c-4ce427f27c21")
-		(effects
-			(font
-				(face "Source Sans Pro")
-				(size 100 100)
-				(thickness 0.2)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(render_cache "Z" 0
-			(polygon
-				(pts
-					(xy 18.662177 118) (xy 80.962421 118) (xy 83.105652 107.674633) (xy 35.496615 107.674633) (xy 98.236496 32.918004)
-					(xy 99.720272 25.7739) (xy 42.085066 25.7739) (xy 39.966259 35.964933) (xy 82.775924 35.964933)
-					(xy 20.170376 110.721563)
-				)
-			)
 		)
 	)
 	(segment
