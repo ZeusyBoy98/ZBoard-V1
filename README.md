@@ -9,8 +9,8 @@ It's a 75% low profile wireless keyboard with Gateron KS33 Chocolate Switches, N
 Because I hate my current keyboard options. I have a Corsair K70 Core which sucks for anything other than gaming, and some old HP keyboard which doesn't register switch presses half the time. So I decided to build my own keyboard. My requirements were for it to be wireless, so that I could use it untethered, low profile & 75%, so it can fit anywere for any situation, and use switches which I really enjoy pressing. In the end, this is the design I came up with and I could not be happier.
 
 ## Images
-![image](IMG/side-on.png)
-![image](IMG/top-angled.png)
+![image](IMG/side-on.PNG)
+![image](IMG/top-angled.PNG)
 ![image](IMG/split.png)
 ![image](IMG/pcb.png)
 ![image](IMG/routing.png)
