@@ -10,6 +10,7 @@ Because I hate my current keyboard options. I have a Corsair K70 Core which suck
 
 ## Renders
 ![image](IMG/side-on.PNG)
+![image](IMG/top-down.PNG)
 ![image](IMG/top-angled.PNG)
 
 ## Designing
