@@ -1,0 +1,12 @@
+file_format: "1"
+id: zboard_v1
+name: ZBoard-V1
+type: shield
+
+url: https://github.com/ZeusyBoy98/ZBoard-V1
+
+features:
+  - keys
+  - studio 
+requires:
+  - seeed_xiao
