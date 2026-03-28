@@ -1,0 +1,6 @@
+if SHIELD_ZBOARD_V1
+
+config ZMK_KEYBOARD_NAME
+    default "ZBoard-V1"
+
+endif # SHIELD_ZBOARD_V1
