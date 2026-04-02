@@ -2,6 +2,10 @@
 Video: https://github.com/ZeusyBoy98/ZBoard-V1/blob/main/IMG/ZBoard-V1-Video.mp4.  
 The ultimate 75% wireless keyboard that fits my needs!  
 Made for Hack Club Fallout.
+
+## Zine
+![zine](IMG/ZBoard-Zine.jpg)
+
 ## What does it do?
 It's a 75% low profile wireless keyboard with Gateron KS33 Chocolate Switches, NuPhy COAST Twilight Keycaps, and a 3D printed shell and plate.
 
