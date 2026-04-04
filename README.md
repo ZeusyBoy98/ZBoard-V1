@@ -37,16 +37,59 @@ In order to make this project for yourself, you'll need to purchase/3D print the
 | Shipping     |                           |                                                                                                                                                                                                                                   |                               | 14.07+9.53+8.60=30.59     |
 | Total        |                           |                                                                                                                                                                                                                                   |                               | 131.16 (147.75)           |
 
-In order to build this keyboard, simply look at the schematic at PCB/ZBoard V1.kicad_sch<br> 
-By following this schematic you should be able to place and solder the components easily. 
 ### Build Guide:
-1. Start by soldering the components onto the board in an order that suites you. 
-2. Then click in the stabilisers to the PCB. 
-3. Then 3D print the case pieces, insert the head thread inserts, and place the PCB in the case and close it. 
-4. Then 3D print all the keycaps and put them on each of the keys.
-5. Once the build is complete, you'll need to double press the reset button on the Seeed Xiao NRF52840 in order to enter bootloader mode. 
-6. Then simply copy the firmware file Firmware/zmk.uf2 into the new drive that appears. 
-7. Once the firmware finishes flashing, you should be able to go into your device's bluetooth settings and connect to the keyboard.
+
+#### 1. Preparation<br>
+Before starting, make sure you have:
+<ul>
+<li>All components from the BOM
+<li>A soldering iron + solder
+<li>Tweezers (there are lots of small components)
+<li>Flux (helpful)
+<li>A screwdriver
+<li>A 3D printer (or get the printed parts from someone else)
+</ul>
+
+#### 2. Soldering
+Take your pcb and begin soldering components to it<br>
+Recommended order:
+<ul>
+<li>SMD Components (Diodes, hot swap sockets)
+<li>Microcontroller (Seeed XIAO NRF52840)
+<li>Through-hole components (Resistors)
+</ul>
+
+#### 3. Switches + Stabilizers
+Insert each individual keyboard switch first, then do the stabilizers. Make sure every switch is properly seated in the socket.
+
+#### 4. Case + Keycaps
+<ul>
+<li>3D print the case pieces and keycaps.
+<li>Insert heat-set inserts with soldering iron into holes in bottom part of case.
+<li>Place PCB into case and screw case closed with M3 Screws
+<li>Put keycaps onto switches
+</ul>
+
+#### 5. Battery
+Solder the ends of the battery onto the contact points exposed through the case.
+
+#### 6. Flash ZMK firmware
+<ul>
+<li>Plug the keyboard in via USB
+<li>Double press the reset button to enter bootloader
+<li>A new USB drive will appear
+<li>Copy Firmware/zmk.uf2 onto the new USB drive
+<li>Wait for Firmware to finish flashing
+</ul>
+
+#### 7. Pair with Bluetooth
+<ul>
+<li>Open bluetooth settings on your device
+<li>Look for the keyboard name
+<li>Connect to it
+</ul>
+
+Enjoy your ZBoard!
 
 ## Renders
 ![image](IMG/side-on.PNG)
