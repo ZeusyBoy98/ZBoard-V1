@@ -65,3 +65,30 @@ Started working on the firmware. I decided to use Vial because it's more customi
 ![intial-firmware](IMG/Journal/28032.png)
 In these long 5 hours, I did the firmware. In one go. I don't know why I did it, it was a stupid idea. But I did it anyway. I started by trying to use QMK and vial because it is very configurable and C is nice. That turned out to be a terrible mistake due to my use of the MCP23017 I/O expander in my design. There is also the fact that QMK is not at all developed for wireless, so that ship sailed after the first 2 hours. So I boldly ventured into the ZMK. I had to learn whole new languages and do a lot of research. Eventually I managed to configure the batteries, bluetooth, and just normal keyboard function into a firmware that might work. Fingers crossed I guess. Anyway, that's enough of that rant, here's a picture of some code:
 ![firmware](IMG/Journal/2803.png)
+
+## March 31st
+### Time spent: 1 hours 28 minutes
+I finished up the silkscreen for the PCB, and it's looking very nice! I added some logo text, some of my previous projects, and some hack club branding, all making it come together to look like a very finished PCB.
+Here's some nice images of the silkscreen:
+![silkscreen](IMG/Journal/3103.png)
+![silkscreen2](IMG/Journal/31032.png)
+Next I'll need to work on my Zine and do some more polishing up in order to reach the number of hours I need to get my grant.
+
+## April 2nd
+### Time spent: 46 minutes
+I worked on and finished my Zine, and added some required files for submission. I'm considering 3D printing my keycaps because I don't have enough hours for my current BOM, but we'll see what happens.
+Here's my Zine:
+![zine](IMG/ZBoard-Zine.jpg)
+
+## April 3rd
+### Time spent: 2 hours 15 minutes
+Due to funding issues, I decided to switch to 3D printed keycaps, which only use 70g of filament. I used an existing model and then made the 1.25u, 1.5u, 1.75u, 2u, 2.25u, and 6.25u versions, so now I've saved extra money. I also switched from DigiKey to LCSC because shipping is way cheaper and so are the parts, so this might be the last journal, it's been a great experience and I can't wait to continue fallout and eventually reach 60 hours!
+
+Here's the sliced 3D prints:
+![prints](IMG/Journal/0304.png)
+
+## April 4th
+### Time spent: 1 hour 57 minutes
+Firmware. I despise it. With the carry that is Large Language Models, I was able to get my firmware to build. So painful. I never want to experience that again. But this is it. All parts of the design are complete. I can now rest easy knowing I just have to build it. And I enjoy soldering, so it should be a treat.
+Here's the file that caused me hours of pain just to get:<br>
+![pain](IMG/Journal/0404.png)
