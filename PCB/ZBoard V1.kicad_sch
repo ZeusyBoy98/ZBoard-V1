@@ -4870,7 +4870,7 @@
 		)
 		(uuid "5a920180-03a5-4059-8304-ba8dcc40d125")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 87.63 177.8 180)
 		(effects
 			(font
@@ -4950,7 +4950,7 @@
 		)
 		(uuid "85253729-ede3-4edf-8575-7cf9d92b3eff")
 	)
-	(label "ROW1"
+	(label "SCL"
 		(at 20.32 203.2 180)
 		(effects
 			(font
@@ -5170,7 +5170,7 @@
 		)
 		(uuid "eea94c31-db62-4c5f-9c2c-de922fd33359")
 	)
-	(label "SCK"
+	(label "ROW1"
 		(at 62.23 203.2 0)
 		(effects
 			(font
