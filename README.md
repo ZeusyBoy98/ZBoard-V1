@@ -12,6 +12,9 @@ It's a 75% low profile wireless keyboard with Gateron KS33 Chocolate Switches, N
 ## Why?
 Because I hate my current keyboard options. I have a Corsair K70 Core which sucks for anything other than gaming, and some old HP keyboard which doesn't register switch presses half the time. So I decided to build my own keyboard. My requirements were for it to be wireless, so that I could use it untethered, low profile & 75%, so it can fit anywere for any situation, and use switches which I really enjoy pressing. In the end, this is the design I came up with and I could not be happier.
 
+## Motivation
+I don't have a good keyboard. My options are a gaming keyboard that double presses, or a membrane keyboard that doesn't press. This should fix both those issues and be actually enjoyable to use.
+
 ## How?
 In order to make this project for yourself, you'll need to purchase/3D print the items in the bill of materials below.
 
@@ -35,7 +38,7 @@ In order to make this project for yourself, you'll need to purchase/3D print the
 | Total        |                           |                                                                                                                                                                                                                                   |                               | 131.16 (147.75)           |
 
 In order to build this keyboard, simply look at the schematic at PCB/ZBoard V1.kicad_sch<br> 
-By following this schematic you should be able to place and solder the components easily. Once the build is complete, you'll need to double press the reset button on the Seeed Xiao NRF52840 in order to enter bootloader mode. Then simply copy the firmware file Firmware/zmk.uf2 into the new drive that appears. Once the firmware finishes flashing, you should be able to go into your device's bluetooth settings and connect to the keyboard.
+By following this schematic you should be able to place and solder the components easily. Start by soldering the components onto the board in an order that suites you. Then click in the stabilisers to the PCB. Then 3D print the case pieces, insert the head thread inserts, and place the PCB in the case and close it. Then 3D print all the keycaps and put them on each of the keys.Once the build is complete, you'll need to double press the reset button on the Seeed Xiao NRF52840 in order to enter bootloader mode. Then simply copy the firmware file Firmware/zmk.uf2 into the new drive that appears. Once the firmware finishes flashing, you should be able to go into your device's bluetooth settings and connect to the keyboard.
 
 ## Renders
 ![image](IMG/side-on.PNG)
