@@ -4,7 +4,7 @@ The ultimate 75% low-profile keyboard that fits my needs!
 Made for Hack Club Fallout.
 
 ## Zine
-![zine](IMG/ZBoard-Zine.jpg)
+![zine](IMG/ZBoard-Zine.png)
 
 ## What does it do?
 It's a 75% low-profile keyboard with Gateron KS33 Chocolate Switches, NuPhy COAST Twilight Keycaps, and a 3D printed shell and plate.
