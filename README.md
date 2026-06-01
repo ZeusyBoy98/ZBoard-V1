@@ -69,7 +69,7 @@ Insert each individual keyboard switch first, then do the stabilizers. Make sure
 #### 5. Flash ZMK firmware
 <ul>
 <li>Plug the keyboard in via USB
-<li>Double press the reset button to enter bootloader
+<li>Double press the boot button to enter bootloader
 <li>A new USB drive will appear
 <li>Copy Firmware/zboard_zboardv1_default.uf2 onto the new USB drive
 <li>Wait for Firmware to finish flashing
