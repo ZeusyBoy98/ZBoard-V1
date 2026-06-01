@@ -9,4 +9,4 @@ features:
   - keys
   - studio 
 requires:
-  - seeed_xiao
+  - rpi_pico

@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: xiao_ble
+  - board: rpi_pico
     shield: zboard_v1
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y

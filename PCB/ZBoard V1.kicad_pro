@@ -490,7 +490,7 @@
       "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../CAD/ZBoard-V1-PCB.step",
+      "step": "../CAD/Parts/ZBoard-V1-PCB.step",
       "svg": "",
       "vrml": ""
     },
