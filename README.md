@@ -29,7 +29,7 @@ In order to make this project for yourself, you'll need to purchase/3D print the
 | 1        | 5mm M3 Screw                  | [Core Electronics](https://core-electronics.com.au/machine-screw-m3-5mm-length-phillips-25-pack.html)        | Already owned                 | (2.24)                    |
 | 1        | Case Pieces                   | CAD/ZBoard-V1-Print.3mf                                                                                      | 3D printing (220g filament)   |                           |
 | 1        | Keycap Set                    | CAD/ZBoard-V1-Print.3mf                                                                                      | 3D printing<br>(70g filament) | (Total 3D printing: 4.61) |
-| 1        | PCB                           | PCB/Gerbers.zip                                                                                              |                               | 21.90                     |
+| 1        | PCB                           | PCB/production/ZBoard_V1.zip                                                                                 |                               | 21.90                     |
 | Shipping |                               |                                                                                                              |                               | 8.60+21.28+10.77=40.65    |
 | Total    |                               |                                                                                                              |                               | 99.83                     |
 
@@ -71,7 +71,7 @@ Insert each individual keyboard switch first, then do the stabilizers. Make sure
 <li>Plug the keyboard in via USB
 <li>Double press the reset button to enter bootloader
 <li>A new USB drive will appear
-<li>Copy Firmware/zmk.uf2 onto the new USB drive
+<li>Copy Firmware/zboard_zboardv1_default.uf2 onto the new USB drive
 <li>Wait for Firmware to finish flashing
 </ul>
 
