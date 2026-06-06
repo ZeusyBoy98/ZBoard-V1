@@ -1,6 +1,6 @@
 # ZBoard-V1
 Video: https://github.com/ZeusyBoy98/ZBoard-V1/blob/main/IMG/ZBoard-V1-Video.mp4.  
-The ultimate 75% low-profile keyboard that fits my needs!  
+The ultimate minimalistic 75% low-profile keyboard that fits my needs!
 Made for Hack Club Fallout.
 
 ## Zine
@@ -77,6 +77,9 @@ Insert each individual keyboard switch first, then do the stabilizers. Make sure
 
 Enjoy your ZBoard!
 
+## Video
+![video](IMG/ZBoard-V1-Video.gif)
+
 ## Renders
 ![image](IMG/side-on.PNG)
 ![image](IMG/top-down.PNG)
@@ -84,5 +87,6 @@ Enjoy your ZBoard!
 
 ## Designing
 ![image](IMG/split.png)
+![image](IMG/schematic.png)
 ![image](IMG/pcb.png)
 ![image](IMG/routing.png)
