@@ -44,7 +44,7 @@ Before starting, make sure you have:
 <li>Tweezers (there are lots of small components)
 <li>Flux (helpful)
 <li>A screwdriver
-<li>A 3D printer (or get the printed parts from someone else)
+<li>A 3D printer (or get the printed parts from someone else) - Print file at CAD/ZBoard-v1-Print.3mf
 </ul>
 
 #### 2. Soldering
@@ -81,6 +81,7 @@ Enjoy your ZBoard!
 ![video](IMG/ZBoard-V1-Video.gif)
 
 ## Renders
+Note: these renders are from the old version so they don't show the pi pico
 ![image](IMG/side-on.PNG)
 ![image](IMG/top-down.PNG)
 ![image](IMG/top-angled.PNG)
@@ -88,5 +89,8 @@ Enjoy your ZBoard!
 ## Designing
 ![image](IMG/split.png)
 ![image](IMG/schematic.png)
-![image](IMG/pcb.png)
+![image](IMG/pcbnew.png)
 ![image](IMG/routing.png)
+
+Here's the version with more personality:
+![image](IMG/personality.PNG)
